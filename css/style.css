@@ -210,7 +210,7 @@ ul li {
 
 .orb-top-bar-frame .orb-top-bar .orb-logo-frame {
 	display: block;
-	height: 19px;
+	/* height: 19px; */
 }
 
 .orb-top-bar-frame .orb-top-bar .orb-logo-frame img, .orb-top-bar-frame .orb-top-bar .orb-logo-frame svg {
