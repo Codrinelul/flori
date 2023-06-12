@@ -92,6 +92,62 @@ body {
 	}
 }
 
+#popup {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: #DDDDD7;
+    z-index: 50;
+    transition: 0.5s;
+    transform: translateY(110%);
+}
+
+#popup.visible {
+    transform: translateY(0%);
+}
+
+#arrow {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+}
+#popup {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: white;
+    z-index: 20;
+    transition: 0.5s;
+    transform: translateY(100%);
+}
+
+#popup.visible {
+    transform: translateY(0%);
+}
+
+#close {
+    float: right;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.font{
+	font-family: "Libre Baskerville", serif;
+	font-size: 14px;
+}
+.font1{
+	font-family: "Libre Baskerville", serif;
+	font-size: 13px;
+}
+
 .orb-wrapper {
 	height: calc(var(--vh, 1vh) * 100);
 }
