@@ -147,7 +147,10 @@ body {
 	font-family: "Libre Baskerville", serif;
 	font-size: 13px;
 }
-
+.flex-container {
+	display: flex; /* or inline-flex */
+	flex-direction: row;
+  }
 .orb-wrapper {
 	height: calc(var(--vh, 1vh) * 100);
 }
